@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthLens AI - Scam Detector</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6f5d2c3d8a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>TruthLens AI</span>
+    </div>
+
+    <nav>
+
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#analyzer">Analyzer</a>
+        <a href="#about">About</a>
+
+    </nav>
+
+</header>
+
+<section class="hero" id="home">
+
+    <div class="hero-left">
+
+        <h1>Detect Scam Messages using AI</h1>
+
+        <p>
+
+            Paste any Job Offer,
+            Email,
+            SMS,
+            WhatsApp Chat,
+            or Internship Offer.
+
+            TruthLens AI will analyze it using Artificial Intelligence
+            and detect whether it looks Safe, Suspicious or Dangerous.
+
+        </p>
+
+        <button onclick="scrollToAnalyzer()">
+
+            Analyze Now
+
+        </button>
+
+    </div>
+
+    <div class="hero-right">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/2784/2784487.png">
+
+    </div>
+
+</section>
+
+<section class="features" id="features">
+
+<h2>Why TruthLens AI?</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<i class="fa-solid fa-brain"></i>
+
+<h3>AI Powered</h3>
+
+<p>
+Uses Google's Gemini AI to analyze messages intelligently.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-triangle-exclamation"></i>
+
+<h3>Risk Detection</h3>
+
+<p>
+
+Detect fake job offers,
+fraud messages
+and suspicious emails.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-lightbulb"></i>
+
+<h3>Smart Advice</h3>
+
+<p>
+
+Receive AI suggestions to stay protected from scams.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="analyzer" class="analyzer">
+
+<h2>AI Scam Analyzer</h2>
+
+<textarea
+id="userInput"
+placeholder="Paste your Job Offer, Email, WhatsApp message, SMS or Internship Offer here..."
+></textarea>
+
+<button id="analyzeBtn">
+
+Analyze with AI
+
+</button>
+
+<div id="loading">
+
+<div class="loader"></div>
+
+<p>Analyzing...</p>
+
+</div>
+
+<div id="result">
+
+</div>
+
+</section>
+
+<section id="about" class="about">
+
+<h2>About Project</h2>
+
+<p>
+
+TruthLens AI is an Artificial Intelligence powered web application
+that helps users identify scam messages,
+fraudulent job offers,
+fake internships,
+and phishing emails.
+
+Built using HTML,
+CSS,
+JavaScript,
+Node.js,
+Express,
+and Google Gemini AI.
+
+</p>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 TruthLens AI
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
